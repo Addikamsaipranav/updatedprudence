@@ -1,0 +1,23 @@
+.servicecontainer{
+    width: 200%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+}
+.servicedheading{
+    font-size: larger;
+}
+.servicecard{
+    margin-left: 0%;
+    
+    max-width: 500px;
+    color: black;
+    padding: 50px 35px;
+    border: 1px solid rgba(255,255,255,0.3);
+    background:rgba(255,255,255,0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+    backdrop-filter: blur(5px);
+}

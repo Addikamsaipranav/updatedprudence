@@ -1,0 +1,11 @@
+.servicecard .servicedheading{
+    font-size: larger;
+    font-weight: 600;
+    overflow: hidden;
+}
+@media screen and (max-width: 851px){
+   .ppp p{
+    width: 70%;
+    height: auto;
+   } 
+}

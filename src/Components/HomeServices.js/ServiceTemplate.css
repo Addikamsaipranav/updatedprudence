@@ -1,0 +1,100 @@
+.headd{
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+.card1{
+
+    margin-left: 10%;
+    margin-right: 25%;
+    margin-top: 10%;
+    height:auto;
+    width:auto;
+    padding: 2em 1.5em;
+    background: linear-gradient(#ffffff 50%, #162447 50%);
+    background-size: 100% 200%;
+    background-position: 0 2.5%;
+    border-radius: 12px;
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.12);
+    cursor: pointer;
+    transition: 0.5s;
+
+
+  
+}
+
+.servicebutton{
+   max-width: 80%;
+   background-color:#162447;
+   color: white;
+  padding: 3px;
+   margin: 8px 0;
+   border: none;
+   border-radius: 8px;
+   cursor: pointer;
+   margin-left: 15%;
+   text-align: center;
+}
+.servicebutton:hover{
+    background-color: white;
+    border: 1px solid black;
+    font-weight: 600 ;
+    color: black;
+    transition: 0.8s;
+}
+.h3{
+    text-align: center;
+    margin-top: 5%;
+    color: black;
+    font-size: 15px;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+}
+.icon-wrapper {
+    background-color:#162447;
+    position: relative;
+    margin: auto;
+    font-size: 30px;
+    height: 2.5em;
+    width: 2.5em;
+    color: #ffffff;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    transition: 0.5s;
+  }
+
+
+  .card1:hover {
+    background-position: 0 100%;
+  }
+  .card1:hover .icon-wrapper {
+   background-color:#162447 ;
+    color: white;
+  }
+  .card1:hover .h3 {
+    color: #ffffff;
+  }
+  
+  
+
+@media screen and (max-width: 851px) {
+    .card1{
+        height: 4000%;
+        width:50%;
+
+       justify-content: center;
+       margin-left: 25%;
+       margin-right: 25%;
+;
+    }
+}
+@media screen and (max-width: 912px){
+    .card1{
+        width: 70%;
+        margin-left: 15%;
+        justify-content: center;
+        align-items: center;
+    }
+}
+

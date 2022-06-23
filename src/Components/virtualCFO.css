@@ -1,0 +1,55 @@
+
+
+.vcontainer{
+    margin-top: 5%;
+}
+.strategic{
+  
+   width: auto;
+   height: auto;
+   margin-top: 15px;
+    position: relative;
+    margin-left: 30px;
+}
+.strategic:before,.strategic:after{
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 0;
+    background-color:#162447 ;
+    transition: 0.5s;
+}
+.strategic:after{
+    left: 0;
+    bottom: -10px;
+    
+}
+.strategic:before{
+    right: 0;
+    top: -10px;
+}
+
+.strategic:hover:after,.strategic:hover:before{
+   width: 100%;
+}
+.vhead{
+    margin-top: 10%;
+    overflow: hidden;
+}
+.vdata{
+    font-weight: 600;
+    overflow: hidden;
+}
+
+
+@media screen and (max-width: 851px){
+    *{
+    
+        overflow-x: hidden;
+        
+    }
+    .strategic{
+        overflow-y: hidden;
+    }
+        
+}

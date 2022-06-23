@@ -1,0 +1,29 @@
+
+  .anchor:hover {
+    color:black;
+    background-color: transparent;
+    text-decoration: none;
+    font-weight: 500;
+    color: #162447;
+  }
+ 
+ 
+  .anchor{
+      text-align: right;
+      text-decoration: none;
+      font-size: large;
+      
+  }
+  .topmain{
+     text-align: right;
+     background-color: ghostwhite;
+     border: 1px solid silver;
+     margin-bottom: 0px;
+  }
+  @media screen and (max-width: 851px){
+    .anchor{
+      color: black;
+      font-size: medium;
+    }
+  }
+ 

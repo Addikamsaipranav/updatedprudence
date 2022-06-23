@@ -1,0 +1,198 @@
+.aboutscroll{
+    overflow: hidden;
+}
+.ahead{
+    overflow: hidden;
+    font-size:xx-large;
+}
+.about{
+    overflow: hidden;
+    margin-top: 2%;
+    width: 100%;
+    height: 100%;
+    font-weight: 600;
+}
+.text{
+    overflow: hidden;
+    text-decoration: underline crimson;
+
+}
+.aboutimg{
+overflow: hidden;
+    width:200px;
+    height: 200px;
+    border-radius: 100%;
+    margin-top: 3%;
+}
+.ceoheading{
+    font-size: larger;
+    width: 1400px;
+    overflow: hidden;
+}
+.degree{
+    font-size: larger;
+    color: crimson;
+    font-weight: bold;
+    overflow: hidden;
+}
+.aboutteamintegrity{
+    background-color: #162447;
+    color: white;
+    padding-bottom: 30px;
+    height: auto;
+    margin-top: 2%;
+    overflow: hidden;
+
+}
+.atih{
+    font-size: xx-large;
+    margin-top: 2%;overflow: hidden;
+}
+.atid{
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: larger;
+    margin-top: 2%;
+    overflow: hidden;
+}
+.wph{
+    font-size: xx-large;
+   overflow: hidden;
+}
+.feature-box{
+    padding:4%;
+    text-align:center;
+    overflow: hidden;
+    }
+
+    .icon1{
+        overflow: hidden;
+        color:black;
+        margin-bottom: 0.5rem;
+        font-size: 5rem;
+        margin-top: 0;
+        width: auto;
+        height: auto;
+        }
+        .icon1:hover{
+        color:crimson;
+        }
+.wpid{
+    margin-top: 5%;
+    overflow: hidden;
+}
+.whyprudence{
+    overflow: hidden;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding:4% 15%;
+background-color: #fff;
+position:relative;
+}
+
+.whyprudence .wpid,.whyprudence h3{
+    overflow: hidden;
+}
+.oteam{
+    font-size: xx-large;
+    margin-bottom: 60px;
+    text-align: center;
+    overflow: hidden;
+}
+.ourteam{
+
+    background-color: #162447;
+    color: white;
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.ourteam h3{
+    overflow: hidden;
+}
+.ourteam p{
+    overflow: hidden;
+}
+
+.teammembers{
+    border-radius: 30px;
+    background-color: white;
+    margin: 5px;
+    margin-bottom: 50px;
+    width: 300px;
+    color: black;
+    padding: 20px;
+    line-height: 20px;
+    position: relative;
+    overflow: hidden;
+    
+}
+.teammembers h3{
+  color: crimson;
+  margin-top: 0px;
+  font-size: larger;
+  overflow: hidden;
+}
+.teammembers .team_img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+   overflow: hidden;
+    transform: translateX(-50%);
+    transform: translateY(-50%);
+}
+.teammembers .team_img img{
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+}
+
+@media screen and (max-width: 851px){
+    .teammembers p ,.teammembers h3{
+        overflow: hidden;
+    }
+    .ceo p{
+        overflow: hidden;
+    }
+    .ceoheading{
+        overflow: hidden;
+        width: auto;
+        font-size: medium;
+    }
+    .ahead{
+        overflow: hidden;
+        font-size:larger;
+    }
+    .aboutteamintegrity{
+        overflow: hidden;
+        font-size: larger;
+        height: auto;
+        width: auto;
+    }
+    .atih{
+        overflow: hidden;
+        font-size: larger;
+        margin-top: 2%;
+    }
+    .wph{
+        overflow: hidden;
+    font-size: larger;
+    margin-top: 2%;
+    text-align: none;
+}
+.teammembers .team_img{
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+   transform: translateX(0%);
+    transform: translateY(0%);
+}
+
+}

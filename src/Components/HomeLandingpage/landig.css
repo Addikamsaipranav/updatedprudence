@@ -1,0 +1,21 @@
+.landing{
+    background-image: url("../images//landing.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+  height:600px;
+}
+@media screen and (max-width: 851px){
+    .landing{
+        background-image: url("../images//landing.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width:auto;
+      height:600px;
+    }
+    .limages{
+        justify-content: center;
+        width: 350px;
+        height: 400px
+    }
+}

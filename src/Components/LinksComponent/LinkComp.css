@@ -1,0 +1,40 @@
+
+.links{
+    background-color: #162447;
+    color: white;
+    border: 1px solid black;
+    border-radius: 12px;
+    width: 100%;
+    height: auto;
+    padding: 25px;
+    
+}
+.links a{
+    color: white;
+    font-size:larger;
+}
+.links i{
+    font-weight: 900;
+    
+}
+.links Table{
+    border: none;
+    color: white;
+    margin-top: 10%;
+    margin-left: 8%;
+}
+.links table tr{
+    border: #162447;
+}
+
+@media screen and (max-width: 851px){
+  
+   
+    
+    .links{
+        width: 73%;
+        margin-left: 14%;
+        margin-top: 4%;
+        height: auto;
+    }
+}

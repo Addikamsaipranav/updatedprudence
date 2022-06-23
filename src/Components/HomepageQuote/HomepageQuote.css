@@ -1,0 +1,54 @@
+.Quote{
+    margin-top: 4%;
+    background-color:#162447;
+    color: white;
+    
+}
+
+.Quote img{
+    margin-left: 10%;
+}
+
+.Quote p{
+    margin-top: 5%;
+    width: 50%;
+    height: auto;
+    padding: 20px 20px 20px 20px;
+    font-size:larger;
+    font-weight:350;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-left: 15%;
+   
+   
+}
+
+@media screen and (max-width: 851px){
+    .quotep p{
+        overflow-y: hidden;
+    }
+    .Quote img{
+        
+        margin-bottom: 10%;
+        justify-content: center;
+        
+        width: 80%;
+        height: 90%;
+        height: inherit;
+        
+    }
+    .Quote p{
+        margin-top: 0%;
+        width: auto;
+        height: auto;
+        margin-left: 5%;
+        padding: 20px 20px 20px 20px;
+        font-size:larger;
+        font-weight:350;
+        letter-spacing: 1px;
+        text-align: center;
+       
+    
+       
+    }
+}
