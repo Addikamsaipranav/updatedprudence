@@ -29,6 +29,13 @@ function Landing() {
 
 
      </div>
+     <div className='about'>
+     
+     
+     </div>
+     <div className='cards'>
+     
+     </div>
     </div>
   )
 }
