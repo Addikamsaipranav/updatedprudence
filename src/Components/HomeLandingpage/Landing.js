@@ -9,7 +9,7 @@ function Landing() {
      <Container fluid>
         <Row className="flex-column-reverse flex-md-row">
         <Col lg={6} sm={12}>
-          <h1 data-aos="fade-up">Financial Solutions to Advance your Business</h1>
+          <h1 data-aos="fade-up">Financial Solutions to Advance your Business </h1>
           
        </Col>
        <Col  lg={6} sm={12}>
@@ -23,17 +23,24 @@ function Landing() {
        </Col>
         </Row>
     </Container>
-
     
-
-
-
      </div>
      <div className='about'>
+     <Container fluid>
+     <Row>
+     <Col lg={6} sm={12}>
+      image code
+      
+    </Col>
+    <Col  lg={6} sm={12}>
+    about info
      
-     
+    </Col>
+     </Row>
+ </Container>
+ 
      </div>
-     <div className='cards'>
+      <div className='cards'>
      
      </div>
     </div>
