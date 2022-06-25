@@ -22,7 +22,12 @@ function Landing() {
         </Media>
        </Col>
         </Row>
-</Container>
+    </Container>
+
+    
+
+
+
      </div>
     </div>
   )
