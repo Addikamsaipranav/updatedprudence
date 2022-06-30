@@ -1,20 +1,186 @@
+
 .landing{
     background-image: url("../images//landing.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     width:100%;
-  height:600px;
+  height:auto;
+  margin-top: 5%;
+  margin-left: 2%;
+  margin-bottom: 9%;
+  overflow: hidden;
+}
+.headdd{
+  height: auto;
+  margin-top: 10%;
+  font-size: xx-large;
+  font-weight: 600;
+  width: 70%;
+  margin-left: 20%;
+  overflow: hidden;
+}
+blockquote {
+  height: auto;
+  font-family: Georgia, serif;
+  position: relative;
+  margin: 0.5em;
+  padding: 0.5em 2em 0.5em 3em;
+  overflow: hidden;
+}
+/* Thanks: http://callmenick.com/post/styling-blockquotes-with-css-pseudo-classes */
+blockquote:before {
+  font-family: Georgia, serif;
+  position: absolute;
+  font-size: 3em;
+  line-height: 1;
+  top: 0;
+  left: 0;
+  height: auto;
+  content: "\201C";
+  overflow: hidden;
+}
+blockquote:after {
+  height: auto;
+  font-family: Georgia, serif;
+  position: absolute;
+ /* display: block; don't use this, it raised the quote too high from the bottom - defeated line-height? */
+  float:right;
+  font-size:3em;
+  right:0;
+  bottom:-0.5em;
+  content: "\201D";
+  overflow: hidden;
 }
 
+.financequote{
+  height: auto;
+  margin-left: 9%;
+  margin-top: 3%;
+  width: 80%;
+  font-size:x-large;
+  font-weight: 600;
+  overflow: hidden;
+ 
+}
+.abthed{
+  text-align: center;
+  color: white;
+  font-size: xx-large;
+  font-weight: 600;
+}
+.aboutlanding{
+
+  background-color: #162447;
+  height: auto;
+  width: auto;
+ 
+ 
+  padding-bottom: 5%;
+  overflow: hidden;
+
+}
+.aimages{
+  width: 350px;
+  height: 250px;
+  overflow: hidden;
+  margin-left: 25%;
+}
+.abtinfo{
+  color: white;
+  font-size: larger;
+  margin-left: -10%;
+  width: 100%;
+  overflow: hidden;
+}
+.financebtn{
+  overflow: hidden;
+  background-color: #162447;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  font-size: large;
+  cursor: pointer;
+  margin-left: 20%;
+}
+.financebtn:hover{
+  background-color: white;
+  border: 3px solid #162447;
+  font-weight: 600 ;
+  color: black;
+  transition: 0.8s;
+  overflow: hidden;
+}
+.abtbutton{
+  overflow: hidden;
+  background-color: white;
+  color: black;
+  padding: 10px 16px;
+  margin-left: -10%;
+  border: none;
+  border-radius: 8px;
+  font-size: large;
+  cursor: pointer;
+}
+.abtbutton:hover{
+  background-color:#162447 ;
+  border: 3px solid white;
+  
+  color: white;
+  transition: 0.8s;
+  overflow: hidden;
+}
 @media screen and (max-width: 851px){
+  .abtbutton{
+    text-align: center;
+    margin-left: 20px;
+    justify-content:center;
+    overflow: hidden;
+  }
+  .blockquote:before{
+    overflow: hidden;
+  }
+  .aimages{
+    margin-left: 0%;
+    overflow: hidden;
+    padding: 20px 20px 20px 20px;
+  }
+  .abtinfo{
+    overflow: hidden;
+     margin-left: 0%;
+     margin-top: 10%;
+     padding: 20px 20px 20px 20px;
+  }
+  .blockquote::after{
+    overflow: hidden;
+  }
+  .headdd{
+    font-size: larger;
+    font-weight: 600;
+    overflow: hidden;
+  }
+  .financequote{
+    margin-left: 2%;
+    margin-top: 3%;
+    width: 100%;
+    font-size: large;
+    font-weight: 600;
+    height: auto;
+    overflow: hidden;
+    padding: 20px 20px 20px 20px;
+  }
     .landing{
+      overflow: hidden;
         background-image: url("../images//landing.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         width:auto;
-      height:600px;
+      height:auto;
+      overflow: hidden;
+      overflow-y: hidden;
     }
     .limages{
+      overflow: hidden;
         justify-content: center;
         width: 350px;
         height: 400px

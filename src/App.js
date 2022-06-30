@@ -30,7 +30,7 @@ function App() {
     loading={loading}   size={30}  color={"#162447"} />
     </div>
     :
-    <div>
+    <div className="over">
    <TopHeader></TopHeader>
    <Navbar></Navbar>
    </div>

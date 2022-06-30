@@ -1,6 +1,6 @@
 import React ,{useEffect} from "react";
 import ServiceTemplate from "./HomeServices.js/ServiceTemplate";
-import { Container,Row,Col } from "react-bootstrap";
+import { Container,Row,Col, Card } from "react-bootstrap";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import "../Components/HomeServices.js/ServiceTemplate.css"
 import HomepageQuote from "./HomepageQuote/HomepageQuote";
@@ -12,7 +12,7 @@ import "../Components/HorizontalSlider/Slider.css"
 import home from "../images/home.svg"
 import Landing from "./HomeLandingpage/Landing";
 
-
+import Cards from "../Components/Testingcards/Cards"
 
 const Home=(props)=>{
   useEffect(()=>{
@@ -20,9 +20,10 @@ const Home=(props)=>{
   },[])
     return(
         <div>
+        
      <Landing/>
-       
- <Container id="services" className="serviceshome reveal " data-aos="flip-up">
+       <div id="services">
+       <Container id="services"  className="serviceshome reveal " data-aos="flip-up">
     <div class="row text-center headd">
         <h1 className="section-heading" data-aos="flip-up">Pick Your Services</h1>
       </div>
@@ -39,6 +40,8 @@ const Home=(props)=>{
       
     </Row>
   </Container>
+       </div>
+ 
  
 <Homecareer/>
   <HorizontalSlider/>

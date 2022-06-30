@@ -59,11 +59,11 @@ function Navbar() {
      </li>
 
      <li className="nav__item">
-     <Link   to="services"  className="nav__link"> 
-        
-       services
      
-     </Link>
+        
+      <a href="#services"> Services</a>
+     
+     
      </li>
 
     

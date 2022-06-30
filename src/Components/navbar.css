@@ -63,7 +63,7 @@ h2::before{
   color:#ff022c;
 }
 ul li {
-  margin-right: -100%;
+  margin-right: -80%;
 }
 
 li {
@@ -131,6 +131,7 @@ select:hover{
 .nav__toggler {
   display: none;
 }
+nav{}
 .nav__toggler div {
   width: 2.5rem;
   height: 0.2rem;

@@ -3,7 +3,9 @@
  
  
 }
-
+.over{
+  z-index: auto;
+}
 
 .loading{
   display: flex;
