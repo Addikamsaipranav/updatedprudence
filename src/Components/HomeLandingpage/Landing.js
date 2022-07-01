@@ -36,7 +36,7 @@ function Landing() {
      </div>
      
      <div className='aboutlanding'>
-     <h1 className='abthed'>About Us</h1>
+     <h1  data-aos="fade-up" className='abthed'>About Us</h1>
      <Container fluid>
      
      <Row>

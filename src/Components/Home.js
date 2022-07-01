@@ -11,8 +11,9 @@ import Homecareer from "./Career/Homecareer";
 import "../Components/HorizontalSlider/Slider.css"
 import home from "../images/home.svg"
 import Landing from "./HomeLandingpage/Landing";
+import Footer from "./Footer/Footer";
 
-import Cards from "../Components/Testingcards/Cards"
+
 
 const Home=(props)=>{
   useEffect(()=>{
@@ -46,6 +47,7 @@ const Home=(props)=>{
 <Homecareer/>
   <HorizontalSlider/>
   <HomepageQuote />
+  <Footer/>
 
         </div>
     )

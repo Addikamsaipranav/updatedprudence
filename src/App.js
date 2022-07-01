@@ -31,8 +31,8 @@ function App() {
     </div>
     :
     <div className="over">
-   <TopHeader></TopHeader>
-   <Navbar></Navbar>
+  <TopHeader></TopHeader>
+  <Navbar/>
    </div>
    }
    

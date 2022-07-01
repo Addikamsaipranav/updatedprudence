@@ -7,6 +7,7 @@ import Heading from "../BelowNav/Heading";
 import "../Services/Services.css"
 import LinksComponent from "../LinksComponent/LinksComponent";
 import Description from "../ServicesDescription/Description";
+import Footer from "../Footer/Footer";
 const AccountingServices=()=>{
     const [loading,setLoading]=useState(false);
     useEffect(()=>{
@@ -66,6 +67,7 @@ const AccountingServices=()=>{
          </Row>
          
        </Container>
+       <Footer/>
          </div>
          
         }

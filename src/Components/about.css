@@ -23,6 +23,8 @@ overflow: hidden;
     height: 200px;
     border-radius: 100%;
     margin-top: 3%;
+    border: 2px solid darkmagenta;
+    padding: 5px 5px 5px 5px;
 }
 .ceoheading{
     font-size: larger;
@@ -142,7 +144,8 @@ position:relative;
     width: 100px;
     height: 100px;
     border-radius: 50%;
-   overflow: hidden;
+     border: 2px solid black;
+     padding: 5px 5px 5px 5px;
     transform: translateX(-50%);
     transform: translateY(-50%);
 }
@@ -151,7 +154,9 @@ position:relative;
     width: 100px;
     height: 100px;
     padding: 10px;
+    
 }
+
 
 @media screen and (max-width: 851px){
     .teammembers p ,.teammembers h3{

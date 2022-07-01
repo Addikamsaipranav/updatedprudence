@@ -108,7 +108,7 @@ blockquote:after {
   border: 3px solid #162447;
   font-weight: 600 ;
   color: black;
-  transition: 0.8s;
+  transition: 1s;
   overflow: hidden;
 }
 .abtbutton{

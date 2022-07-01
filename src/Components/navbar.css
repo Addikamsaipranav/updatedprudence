@@ -28,7 +28,7 @@ body {
   margin: 0;
   font-size: 3rem;
   font-weight: 600;
-  color: black;
+  color: white;
   z-index: 1;
   overflow: hidden;
   
@@ -39,7 +39,7 @@ h2::before{
   left: 120%;
   height: 120%;
   width: 120%;
-  background: linear-gradient(90deg,transparent 0%,#F8F8FF,5%,#F8F8FF 100%);
+  background: linear-gradient(90deg,transparent 0%,#162447,#162447 100%);
   animation:  animate 5.5s linear infinite;
   animation-delay: 2s;
   transition: 0.3s;
@@ -73,14 +73,14 @@ li {
 }
 a {
   text-decoration: none;
-   color: black;
+   color: white;
   position: relative;
   padding: 0 5px;
 }
 .a a::after{
   content: "";
   position: absolute;
-  background-color: black;
+  background-color:white;
   height: 2px;
   width: 0;
   left: 0;
@@ -102,8 +102,9 @@ a {
   align-items: center;
   justify-content: space-around;
   height: 10vh;
-  background:#F8F8FF;
-  color: black;
+  background:#162447;
+  color: white;
+ 
   border: 1px solid silver;
 }
 select{
@@ -129,9 +130,9 @@ select:hover{
   gap: 3rem;
 }
 .nav__toggler {
-  display: none;
+  display:none;
 }
-nav{}
+
 .nav__toggler div {
   width: 2.5rem;
   height: 0.2rem;
@@ -139,6 +140,7 @@ nav{}
   background: black;
   transition: 0.3s ease-in;
 }
+
 @media screen and (width: 500px){
   
 }
@@ -148,6 +150,10 @@ nav{}
   .nav__toggler {
     display: block;
     cursor: pointer;
+    
+  }
+  .nav__toggler .line1,.nav__toggler .line2,.nav__toggler .line3{
+    background-color: white;
   }
   .nav__brand{
     text-align: center;
@@ -177,16 +183,23 @@ nav{}
 /* Active Class */
 .nav__active {
   transform: translateX(0%);
+  
 }
 
 /* Toggle Icon Animation */
 
 .toggle .line1 {
+  color: white;
+  background-color: white;
   transform: rotate(-45deg) translate(-4px, 5px);
 }
 .toggle .line2 {
+  background-color: white;
+  color: white;
   opacity: 0;
 }
 .toggle .line3 {
+  background-color: white;
+  color: white;
   transform: rotate(45deg) translate(-4px, -5px);
 }

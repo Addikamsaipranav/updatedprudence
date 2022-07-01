@@ -13,7 +13,7 @@ import Context from "../Components/Context/Context"
 import Provider  from "../Components/Context/AboutProvider";
 import context from "react-bootstrap/esm/AccordionContext";
 import { contextType } from "google-map-react";
-
+import Footer from "./Footer/Footer";
 const About=()=>{
     const [loading,setLoading]=useState(false);
     useEffect(()=>{
@@ -91,7 +91,7 @@ const About=()=>{
                     <img data-aos="flip-up" src={tejeswini} className="team_img"></img>
                      <h3 data-aos="fade-down">{context.data.aboutteam.tejeswini.name}</h3>
                      <p className="role"></p>
-                     <p data-aos="fade-right">{context.data.aboutteam.tejeswini.info}</p>
+                     <p className="inn" data-aos="fade-right">{context.data.aboutteam.tejeswini.info}</p>
                  </Col>
 
                  <Col data-aos="flip-left" className="teammembers" lg={4} sm={12} md={12}>
@@ -117,6 +117,7 @@ const About=()=>{
               )
             }
           </Context.Consumer>
+          <Footer/>
   </Provider>
             
          }
