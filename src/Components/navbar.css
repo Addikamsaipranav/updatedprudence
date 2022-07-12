@@ -178,6 +178,7 @@ select:hover{
     flex-direction: column;
     transform: translateX(100%);
     transition: 0.5s ease-in;
+    padding-bottom: 2%;
   }
 }
 /* Active Class */
@@ -202,4 +203,18 @@ select:hover{
   background-color: white;
   color: white;
   transform: rotate(45deg) translate(-4px, -5px);
+}
+@media only screen and (min-width: 912px) and (max-width:1100px){
+  .nav__brand{
+    margin-right: -90px;
+  }
+  .nav__menu{
+    margin-left: -50%;
+  }
+}
+
+@media only screen and (min-width: 280px) and (max-width:653px){
+  .nav__brand{
+    margin-left: 10px;
+  }
 }

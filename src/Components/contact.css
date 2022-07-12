@@ -2,6 +2,9 @@ table{
   width:65%;
   font-weight: 600;
   overflow: hidden;
+  margin-left:auto;
+  margin-right:auto;
+  display: block;
   }
   .icons{
     width:10%;
@@ -49,7 +52,6 @@ table{
   .subject{
     overflow: hidden;
     width: 66%;
-    margin: 8px 0;
     display: inline-block;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -91,4 +93,54 @@ table{
     .subject{
       width: 100%;
     }
+    .sec_sp{
+      width:80%;
+      margin-left: auto;
+      margin-right:auto;
+      display:block;
+    }
+    .button{
+      margin-left: auto;
+      margin-right:auto;
+      display:block;
+    }
   }
+  @media only screen and (min-width: 912px) and (max-width:1100px){
+    table{
+      margin:0;
+    }
+    .sec_sp{
+      width:100%;
+    }
+    textarea{
+      width: 100%;
+    }
+    .subject{
+      width: 100%;
+    }
+  }
+  @media only screen and (min-width: 280px) and (max-width:653px){
+    table{
+      width:100%;
+    }
+  }
+  @media only screen and (min-width: 768px) and (max-width:1100px){
+    .virtualtable{
+      font-size: 30px;
+    }
+    .contact__form{
+      font-size: 30px;
+    }
+    table{
+      margin:0;
+    }
+  }
+  
+@media only screen and (min-width: 1024px) and (max-width:1100px){
+  .virtualtable{
+    font-size: 20px;
+  }
+  .contact__form{
+    font-size: 20px;
+  }
+}

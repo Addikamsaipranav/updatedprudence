@@ -3,13 +3,15 @@
     margin-bottom: 1%;
     overflow: hidden;
 }
-
+.secion1{
+    margin-left: 10%;
+}
 .card1{
 
     margin-left: 10%;
     margin-right: 25%;
     margin-top: 10%;
-    height:auto;
+    height:250px;
     width:auto;
     padding: 2em 1.5em;
     background: linear-gradient(#ffffff 50%, #162447 50%);
@@ -96,7 +98,9 @@
        justify-content: center;
        margin-left: 25%;
        margin-right: 25%;
-;
+    }
+    .secion1{
+        margin-left: 0%;
     }
 }
 @media screen and (max-width: 912px){

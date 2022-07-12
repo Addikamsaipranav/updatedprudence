@@ -48,8 +48,29 @@ span h1{
     height: auto;
     
   }
-  .careerbutton{
-    
-  }
+  
 
+}
+@media only screen and (min-width: 768px) and (max-width:1100px){
+  .hometext{
+    font-size: 30px;
+  }
+  .homecareer h1{
+    font-size: 60px;
+  }
+}
+
+@media only screen and (min-width: 540px) and (max-width:600px){
+  .hometext{
+    font-size: 20px;
+  }
+  .homecareer h1{
+    font-size: 40px;
+  }
+}
+
+@media only screen and (min-width: 1280px) and (max-width:1300px){
+  .homecareer h1{
+    font-size: 40px;
+  }
 }

@@ -1,5 +1,5 @@
 .servicecontainer{
-    width: 200%;
+    width: 100%;
     height: 100%;
     background-position: center;
     background-size: cover;
@@ -10,8 +10,6 @@
     font-size: larger;
 }
 .servicecard{
-    margin-left: 0%;
-    
     max-width: 500px;
     color: black;
     padding: 50px 35px;
@@ -20,4 +18,36 @@
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0,0,0,0.1);
     backdrop-filter: blur(5px);
+}
+@media only screen and (min-width: 768px) and (max-width:1100px){
+    .servicecard{
+        
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    font-size: 30px;
+    }
+}
+
+@media only screen and (min-width: 540px) and (max-width:600px){
+    .servicecard{
+        
+        max-width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        }
+}
+
+@media only screen and (min-width: 1024px) and (max-width:1100px){
+    .servicecard{
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width: 1280px) and (max-width:1300px){
+    .servicecard{
+        font-size: 25px;
+    }
 }

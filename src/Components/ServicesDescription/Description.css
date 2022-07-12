@@ -3,9 +3,15 @@
     font-weight: 600;
     overflow: hidden;
 }
+.ppp p{
+    width: 100%;
+}
 @media screen and (max-width: 851px){
    .ppp p{
-    width: 70%;
+    width: 100%;
     height: auto;
    } 
+}
+@media only screen and (min-width: 768px) and (max-width:1100px){
+
 }

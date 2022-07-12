@@ -88,24 +88,25 @@ const About=()=>{
                  <Row className="ourteam"> 
                  <center className="oteam">Our Amazing Team</center>
                  <Col data-aos="flip-left" className="teammembers" lg={4} sm={12} md={12}>
+                 <img data-aos="flip-up" src={shravan} className="team_img"></img>
+                      <h3 data-aos="fade-down" >{context.data.aboutteam.shravan.name}</h3>
+                      <p className="role"> </p>
+                      <p className="inn" data-aos="fade-up">{context.data.aboutteam.shravan.info}</p>
+                 </Col>
+                 <Col data-aos="flip-left" className="teammembers" lg={4} sm={12} md={12}>
                     <img data-aos="flip-up" src={tejeswini} className="team_img"></img>
                      <h3 data-aos="fade-down">{context.data.aboutteam.tejeswini.name}</h3>
                      <p className="role"></p>
                      <p className="inn" data-aos="fade-right">{context.data.aboutteam.tejeswini.info}</p>
                  </Col>
 
-                 <Col data-aos="flip-left" className="teammembers" lg={4} sm={12} md={12}>
-                 <img data-aos="flip-up" src={shravan} className="team_img"></img>
-                      <h3 data-aos="fade-down" >{context.data.aboutteam.shravan.name}</h3>
-                      <p className="role"> </p>
-                      <p data-aos="fade-up">{context.data.aboutteam.shravan.info}</p>
-                 </Col>
+                 
 
                  <Col data-aos="flip-left" className="teammembers" lg={4} sm={12} md={12}>
                  <img data-aos="flip-up" src={bhargavi} className="team_img"></img>
                       <h3 data-aos="fade-down">{context.data.aboutteam.bhargavi.name}</h3>
                       <p className="role"> </p>
-                      <p data-aos="fade-right">{context.data.aboutteam.bhargavi.info}</p>
+                      <p className="inn" data-aos="fade-right">{context.data.aboutteam.bhargavi.info}</p>
                  </Col>
                </Row>
     

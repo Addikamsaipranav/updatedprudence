@@ -75,7 +75,7 @@ const VirtualCFO=()=>{
               
               width={250}
               height={200}
-              className="mr-10 vimages"
+              className="mr-10 vimages "
               src={img2}
               />
             </Media>

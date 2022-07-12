@@ -10,7 +10,7 @@ function Landing() {
      <div className='landing'>
      <Container fluid>
         <Row className="flex-column-reverse flex-md-row">
-        <Col lg={6} sm={12}>
+        <Col lg={6} sm={12} className="main-heading">
        
      
 

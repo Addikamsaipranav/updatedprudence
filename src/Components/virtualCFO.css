@@ -3,13 +3,14 @@
 .vcontainer{
     margin-top: 5%;
 }
+
 .strategic{
   
    width: auto;
    height: auto;
    margin-top: 15px;
     position: relative;
-    margin-left: 30px;
+    
 }
 .strategic:before,.strategic:after{
     content: "";
@@ -50,6 +51,69 @@
     }
     .strategic{
         overflow-y: hidden;
+        margin-left: 0;
+    }
+    .strategic img{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    .vdata{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width:85%;
+        text-align: justify;
     }
         
+}
+@media only screen and (min-width: 760px) and (max-width:1180px){
+    .strategic img{
+        width:70%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    
+}
+@media only screen and (min-width: 280px) and (max-width:653px){
+    .strategic img{
+        width:70%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+}
+@media only screen and (min-width: 912px) and (max-width:1023px){
+    .strategic{
+        margin-left: auto;
+        margin-right: auto;
+        width:100%;
+    }
+    .flex-column-reverse .mtext{
+        position: relative;
+        top:200px;
+        width:100%;
+    }
+    .flex-column-reverse .mimg{
+        position: relative;
+        bottom:100px;
+    }
+    .vdata{
+        font-size: 30px;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width:1023px){
+    .flex-column-reverse .mtext{
+        position: relative;
+        top:200px;
+        width:100%;
+    }
+    .flex-column-reverse .mimg{
+        position: relative;
+        bottom:150px;
+    }
+    .vdata{
+        font-size: 30px;
+    }
 }
